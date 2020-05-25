@@ -1,6 +1,8 @@
 #  Site web en ligne 
 Les étapes à suivre pour création du projet (site web en ligne) : 
  
+ Les étapes à suivre pour création du projet (site web en ligne) : 
+ 
 1.	Les outils pour création de projet. 
 2.	Découpage de la maquette 
 3.	Les langues utilisées pour élaborer le site web 
