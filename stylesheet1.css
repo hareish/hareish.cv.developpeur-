@@ -26,7 +26,7 @@ body {
 
 .divphoto {
 	width: 30%;
-	background-color: #f9ca07;
+	background-color: #0e008e;
 	height: 250px;
 	display: flex;
 }
@@ -36,7 +36,7 @@ body {
 	margin: auto;
 	width: 150px;
 	height: 150px;
-	border: 4px solid goldenrod;
+	border: 4px solid rgb(255, 255, 255);
 	border-radius: 50%;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .prenom {
-	color: rgb(255, 209, 51);
+	color:#0e008e;
 	font-weight: 900;
 }
 
@@ -63,7 +63,7 @@ h2 {
 }
 
 .underline {
-	border-bottom: 2px rgb(255, 209, 51) solid;
+	border-bottom: 2px #0e008e solid;
 	text-transform: capitalize;
 }
 
@@ -71,7 +71,7 @@ h2 {
 /* début d'asside */
 aside {
 	width: 30%;
-	background-color: #f9ca07;
+	background-color: #0e008e;
 }
 
 .bloc {
@@ -84,35 +84,31 @@ aside {
 
 	width: 100%;
 	display: flex;
-	background-color: #404040;
-	color: rgb(255, 209, 51);
+	background-color: #0e008e;
+	border-bottom: 3px #eae9f2 solid;
+	color: rgb(249, 248, 252);
 	text-align: center;
 	font-size: 20px;
 	height: 40px;
 	line-height: 0px;
 	font-weight: bolder;
+	
 }
 
 p.soustitre {
 	margin: auto;
 }
 
-.information1 {
-	width: 74%;
-	font-weight: Bolder;
-	padding: 13%;
-	text-align: justify;
-	hyphens: auto;
-	font-size: 13px;
-}
+.information1,
+	.information2 {
+		width: 74%;
+		padding: 13%;
+		hyphens: auto;
+		font-weight: 400px;
+		font-size: 13px;
+		color: rgb(250, 249, 249);
+		text-align: justify;
 
-.information2 {
-	width: 74%;
-	font-weight: 400;
-	padding: 13%;
-	text-align: justify;
-	hyphens: auto;
-	font-size: 13px;
 }
 
 /* fin d'asside */
@@ -134,7 +130,7 @@ h3 {
 	width: 85%;
 	height: 20px;
 	display: flex;
-	border-bottom: 3px rgb(255, 209, 51) solid;
+	border-bottom: 3px #0e008e solid;
 	color: black;
 	margin: auto;
 	padding-bottom: 10px;
@@ -143,7 +139,7 @@ h3 {
 
 .icon {
 	font-size: 22px;
-	color: rgb(255, 209, 51);
+	color: #0e008e;
 	margin: auto;
 }
 
@@ -184,6 +180,7 @@ h4 {
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
+	
 
 }
 
@@ -217,7 +214,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #f9ca07;
+	background-color: #0e008e;
 }
 
 
@@ -227,13 +224,13 @@ footer {
 	width: 35px;
 	display: flex;
 	border-radius: 100%;
-	border: 2px rgb(59, 48, 3) solid;
+	border: 2px rgb(250, 249, 247) solid;
 }
 
 .img1 {
 	font-size: 25px;
 	margin: auto;
-	color: #404040;
+	color: #f9f5f5;
 }
 
 h5 {
@@ -300,33 +297,21 @@ h5 {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: blanchedalmond;
+		background-color: #0e008e;
 	}
 
 	.photo {
-		border: 4px solid rgb(3, 3, 3);
+		border: 4px solid rgb(254, 254, 254);
 	}
 
 	h1 {
 		width: 100%;
 		font-size: xx-large;
-		color: black;
+	
 
 	}
 
-	h2 {
-		color: black;
 
-	}
-
-	.underline {
-		color: blanchedalmond;
-		border-bottom: 2px blanchedalmond solid;
-	}
-
-	.prenom {
-		color: blanchedalmond;
-	}
 
 	.divtitre {
 		width: 100%;
@@ -334,7 +319,7 @@ h5 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: darkgray;
+		
 	}
 
 	aside {
@@ -344,25 +329,16 @@ h5 {
 	.information1,
 	.information2 {
 		font-size: 14px;
-		background-color: blanchedalmond;
-		color: dimgray;
-	}
 
-	.soustitre {
-		color: blanchedalmond;
+
 	}
 
 	main {
 		width: 100%;
-		background-color: dimgray;
-		color: blanchedalmond;
+	
 		padding-top: 5%;
 	}
 
-	h3 {
-
-		color: blanchedalmond;
-	}
 
 	h4 {
 		margin: 0px 0px 10px 16px;
@@ -373,28 +349,23 @@ h5 {
 		margin: 0px 0px 10px 6px;
 
 	}
-
-	.icon {
-		color: blanchedalmond;
-	}
-
 	.titleformation {
 
 		font-size: 12px;
 		width: 75%;
 		margin-left: 47px;
-		border-bottom: 3px blanchedalmond solid;
+
 	}
 
 	.puce1::before {
-		content: url(img/dot-circle-regular600.svg);
+		content: url(img/dot-circle-regular.svg);
 		width: 18px;
 		height: 18px;
 
 	}
 
 	.puce2::before {
-		content: url(img/circle-solid600.svg);
+		content: url(img/circle-solid.svg);
 		width: 15px;
 		height: 15px;
 	}
@@ -439,14 +410,14 @@ h5 {
 	.partieloisir {
 		width: 100%;
 		height: 100px;
-		background-color: blanchedalmond;
+
 	}
 
 	.partierecommendation {
 		padding-top: 8PX;
 		width: 100%;
-		background-color: dimgray;
-		color: blanchedalmond;
+
+
 	}
 
 }
